@@ -9,9 +9,9 @@
 /* variables */
 :root {
   /* Colors */
-  --primary-color: #ffcd42;
-  --secondary-color: #ffd35c;
-  --bg-primary: #ffffff;
+  --primary-color: #927fbf;
+  --secondary-color: #c4bbf0;
+  --bg-primary: #dcd6f7;
   --text-color: #222222;
   --text-color-two: #ffffff;
   --bg-secondary: #000000;
@@ -102,7 +102,16 @@ body {
   font-size: 1.5rem;
   margin: 1.5rem 0;
 }
-h3, p {
+
+h2 {
+  font-size: 48px;
+  margin-left: 12rem;
+}
+
+
+h4 {
+  font-weight: 400;
+  font-size: 22px;
   padding-top: 1rem;
   margin-left: 13rem;
   text-align: justify;
@@ -394,7 +403,7 @@ h3, p {
     text-align: center;
   }
 
-  h3 {
+  h4 {
     font-size: 2.5rem;
   }
 }
