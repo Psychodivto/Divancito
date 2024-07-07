@@ -9,8 +9,8 @@
 /* variables */
 :root {
   /* Colors */
-  --primary-color: #927fbf;
-  --secondary-color: #c4bbf0;
+  --primary-color: #5e63b6;
+  --secondary-color: #a393eb;
   --bg-primary: #dcd6f7;
   --text-color: #222222;
   --text-color-two: #ffffff;
@@ -104,14 +104,15 @@ body {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 54px;
   margin-left: 12rem;
+  padding-top: 4rem;
 }
 
 
 h4 {
   font-weight: 400;
-  font-size: 22px;
+  font-size: 18px;
   padding-top: 1rem;
   margin-left: 13rem;
   text-align: justify;
@@ -269,7 +270,7 @@ h4 {
 
 /* Footer */
 #footer {
-  background: #111111;
+  background: #363b4e;
 }
 
 #footer .container {
