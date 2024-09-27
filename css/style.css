@@ -73,68 +73,46 @@ body {
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
 }
-.container-tittle{
-  width: min-content;
-  margin-left: 11.5rem;
-    display: flex;
-    justify-content: normal;
-    margin-top: 8rem;
-    padding: 1rem;
+
+.Card-outline{
+  width: 600px;
+  height: 254px;
+  background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.25s cubic-bezier(0, 0, 0, 1);
 }
 
-.profile {
-  overflow: hidden;
-  border-right: .15em solid orange;
-  font-size: 2rem;
-  width: 0;
-  overflow: hidden;
-    border-right: .10em solid orange;
-    white-space: nowrap;
-    font-size: 2.5rem;
-    width: 0;
-    animation: typing 1.5s forwards;
+.Card-outline:hover{
+  box-shadow: 0px 0px 30px 1px rgba(204, 0, 255, 0.3);
+}
+
+.Card{
+  width: 600px;
+  height: 254px;
+  background-color: #1d1724;
+  border-radius: 10px;
+  transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+  padding: 15px;
+  cursor: pointer
 
 }
-.content-text{
+
+.Card:hover{
+  transform: scale(0.98);
+  border-radius: 18px;
+}
+
+.textprofile{
   
-  display: flex;
-  flex-direction: column;
-  font-size: 1.5rem;
-  margin: 1.5rem 0;
+
 }
 
-h2 {
-  font-size: 54px;
-  margin-left: 12rem;
-  padding-top: 4rem;
-}
-
-
-h4 {
-  font-weight: 400;
-  font-size: 18px;
-  padding-top: 1rem;
-  margin-left: 13rem;
-  text-align: justify;
-}
-
-.profile-imagen{
-  position: relative;
-  display: flex;
-  left: 850px;
-  margin-top: -300px;
-  border-radius: 50%;
-  animation: bounce 1s infinite alternate;
-  width: 300px;
-  height: 300px;
-  
-}
 
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
 }
-
 
 
 /* Navbar */
