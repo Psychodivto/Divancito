@@ -8,7 +8,7 @@ import {formatDatetime} from "../lib/utils";
 interface Edu {
     title: string;
     school: string;
-    location: string;
+    tesis: string;
     startDate: string;
     endDate?: string;
     description: string;
@@ -19,7 +19,7 @@ const {eduData} = Astro.props;  // Ensure correct typing for the props
 const {
     title,
     school,
-    location,
+    tesis,
     startDate,
     endDate,
     description,
@@ -34,8 +34,8 @@ const {
     <h3 class="text-xl font-bold">{title}</h3>
     <div class="flex gap-2">
         <p>{school}</p>
-        <span>/</span>
-        <p>{location}</p>
+        <span></span>
+        <p>{tesis}</p>
     </div>
     <p>{description}</p>
 </div>

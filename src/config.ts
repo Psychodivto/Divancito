@@ -14,66 +14,29 @@ export const SITE = {
 }
 
 export const ME = {
-    name: "John Doe",
-    profession: "Software Engineer | Full Stack Developer",
-    profileImage: "pp.png",
+    name: "Diego Conde",
+    profession: "Ingeniero de software | Desarrollador Fullstack",
+    profileImage: "Profile.png",
     profileFacts: [
         {
-            value: 10,
-            description: "Years of Experience"
-        },
-        {
-            value: 5,
-            description: "Completed Projects"
-        },
-        {
-            value: 4,
-            description: "Satisfied Clients"
+           Text:"La innovación comienza explorando ideas, soluciones que cobran vida a través del código."
         }
     ],
     contactInfo: {
-        email: "vicbox.dev@vicbox.dev",
-        linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
+        email: "perezcondediegoivan@outlook.com",
+        linkedin: "https://www.linkedin.com/in/divancito-perez",
         resumeDoc: "resume.pdf",
     },
-    aboutMe: "I am a software engineer with a passion for web development. I have experience in building web " + "applications using modern technologies. I am a self-taught developer who enjoys learning new things and " + "sharing knowledge with others.",
+    aboutMe: "Hola soy ingeniero de software " + "applications using modern technologies. I am a self-taught developer who enjoys learning new things and " + "sharing knowledge with others.",
 }
 
 export const SOCIALS = [
     {
-        name: "Twitter",
-        url: "https://twitter.com/vicbox.dev",
-        icon: "twitter-x-fill",
-        show: true
-    },
-    {
-        name: "Facebook",
-        url: "https://www.facebook.com/vicbox.dev",
-        icon: "facebook-fill",
-        show: false
-    },
-    {
-        name: "Instagram",
-        url: "https://www.instagram.com/vicbox.dev",
-        icon: "instagram-fill",
-        show: true
-    },
-    {
-        name: "Youtube",
-        url: "https://www.youtube.com/vicbox.dev",
-        icon: "youtube-fill",
-        show: true
-    },
-    {
-        name: "TikTok",
-        url: "https://tiktok.com/vicbox.dev",
-        icon: "tik-fill",
-        show: false
-    },
-    {
+        /*
         name: "GitHub",
-        url: "https://github.com/vicbox.dev",
+        url: "https://github.com",
         icon: "github-fill",
         show: true
+        */
     }
-]
+]       
