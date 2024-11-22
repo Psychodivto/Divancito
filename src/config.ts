@@ -105,25 +105,17 @@ estoy en búsqueda de oportunidades que me permitan crecer en ambas áreas y con
       {
         title: "Software Developer",
         company: {
-          name: "Freelance",
-          image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          name: "Tesis",
+          image: "/neural-network-license-plate-recognition-260nw-2264543831.webp",
+          url: "https://github.com/Psychodivto/AI-OPS",
         },
-        date: "2021 - Present",
-      },
-      {
-        title: "Software Developer",
-        company: {
-          name: "Freelance",
-          image: "/logo.webp",
-          url: "https://gijthub.com/TimWitzdam",
-        },
-        date: "2019 - 2021",
+        date: "2024 - Present",
       },
     ],
   },
+
   connect: {
-    description: `I'm always interested in meeting new people and learning new things. Feel free to connect with me on any of the following platforms.`, // Markdown is supported
+    description: ``, // Markdown is supported
     links: socialLinks,
   },
 };
