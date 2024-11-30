@@ -15,6 +15,7 @@ export type Identity = {
   name: string;
   logo: string;
   email: string;
+  image: string;
 };
 
 export type SEOInfo = {

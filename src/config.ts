@@ -12,6 +12,7 @@ export const identity: Identity = {
   name: "Diego Conde",
   logo: "/PicRetouch_20240719_070444396.png",
   email: "perezcondediegoivan@outlook.com",
+  image: "/public/demo-2.jpg",
 };
 
 export const navBarLinks: NavBarLink[] = [
@@ -27,10 +28,6 @@ export const navBarLinks: NavBarLink[] = [
     title: "Proyectos",
     url: "/projects",
   },
-  {
-    title: "Blog",
-    url: "/blog",
-  },
 ];
 
 export const socialLinks: SocialLink[] = [
@@ -44,6 +41,7 @@ export const socialLinks: SocialLink[] = [
     title: "Mail",
     url: "mailto:perezcondediegoivan@outlook.com",
     icon: "mdi:email",
+    
   },
 ];
 
@@ -103,13 +101,13 @@ estoy en búsqueda de oportunidades que me permitan crecer en ambas áreas y con
     en un sistema de recocimiento de caracteres de placas vehiculares por medio de inteligencia artificial.`, // Markdown is supported
     items: [
       {
-        title: "Software Developer",
+        title: "AIOPS",
         company: {
           name: "Tesis",
           image: "/neural-network-license-plate-recognition-260nw-2264543831.webp",
           url: "https://github.com/Psychodivto/AI-OPS",
         },
-        date: "2024 - Present",
+        date: "2024 - Presente",
       },
     ],
   },
@@ -123,21 +121,21 @@ estoy en búsqueda de oportunidades que me permitan crecer en ambas áreas y con
 // Projects (/projects)
 export const projectsPageContent: ProjectPageContent = {
   seo: {
-    title: "Projects | Tim Witzdam",
-    description: "Check out what I've been working on.",
+    title: "Proyectos | Diego Conde",
+    description: "Checa mis ultimos trabajos que estoy desarollando.",
     image: identity.logo,
   },
-  subtitle: "Check out what I've been working on.",
+  subtitle: "Checa mis ultimos trabajos que estoy desarrollando.",
   projects: [
     {
-      title: "Project 1",
+      title: "Proyecto 1",
       description: "Project 1 Description",
       image: "/demo-2.jpg",
       year: "2024",
       url: "https://github.com/TimWitzdam",
     },
     {
-      title: "Project 2",
+      title: "Formulario en Laravel",
       description: "Project 1 Description",
       image: "/demo-2.jpg",
       year: "2024",
