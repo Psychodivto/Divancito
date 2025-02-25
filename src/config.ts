@@ -28,6 +28,10 @@ export const navBarLinks: NavBarLink[] = [
     title: "Proyectos",
     url: "/projects",
   },
+  {
+    title: "Blog",
+    url: "/blog",
+  },
 ];
 
 export const socialLinks: SocialLink[] = [
