@@ -12,7 +12,7 @@ export const identity: Identity = {
   name: "Diego Conde",
   logo: "/PicRetouch_20240719_070444396.png",
   email: "perezcondediegoivan@outlook.com",
-  image: "/public/demo-2.jpg",
+  image: "/public/DiegoConde.pdf",
 };
 
 export const navBarLinks: NavBarLink[] = [
@@ -47,6 +47,12 @@ export const socialLinks: SocialLink[] = [
     icon: "mdi:email",
     
   },
+  {
+    title: "LinkedIn",
+    url: "https://linkedin.com/in/divtoconde",
+    icon: "mdi:linkedin",
+    
+  },
 ];
 
 // Home (/)
@@ -57,7 +63,7 @@ export const homePageContent: HomePageContent = {
       "Innovation begins with exploration, solutions with code.",
     image: identity.logo,
   },
-  role: "Desarrollador de software",
+  role: "Desarrollador Full Stack Web",
   description:
     "La innovación comienza explorando ideas, y las soluciones cobran vida a través del código.",
   socialLinks: socialLinks,
@@ -70,6 +76,10 @@ export const homePageContent: HomePageContent = {
       title: "Acerca de mi",
       url: "/about",
     },
+    {
+      title: "CV",
+      url: "/public/DiegoConde.pdf"
+    }
   ],
 };
 
@@ -83,35 +93,44 @@ export const aboutPageContent: AboutPageContent = {
   },
   subtitle: "",
   about: {
-    description: `
-Hola a todos 👋 soy Diego, ingeniero de software apasionado por el desarrollo web y la inteligencia artificial. 
-Me gusta explorar y aprender constantemente para combinar habilidades en estas áreas y crear soluciones innovadoras.
-<br/><br/>
-Con experiencia en el desarrollo web y un fuerte interés en inteligencia artificial, 
-estoy en búsqueda de oportunidades que me permitan crecer en ambas áreas y contribuir a proyectos de alto impacto.`, // Markdown is supported
+    description: `Soy Ingeniero de Software egresado de la Universidad Veracruzana, 
+    con experiencia en desarrollo Full Stack y Cloud Computing, enfocado en crear soluciones escalables y eficientes.
+    Domino varios lenguajes de programación como Python y JavaScript, además de tecnologías para arquitectura de contenedores 
+    como Docker y Kubernetes. Tengo experiencia con frameworks de Frontend y Backend como Angular, React y Django.
+    Manejo patrones de diseño como MVC y diseño de interfaces con Figma para mejorar la experiencia de usuario. 
+    He participado en proyectos académicos y hackathons, destacando en el desarrollo de soluciones innovadoras para problemas
+    complejos. Busco oportunidades para seguir aprendiendo y aportar valor en el desarrollo de software.`, // Markdown is supported
 
     image_l: {
-      url: "",
+      url: "/graduacion.jpg",
       alt: "",
     },
     image_r: {
-      url: "",
+      url: "/graduacionprofile.jpg",
       alt: "",
     }
     
   },
   work: {
-    description: `Actualmente desarrollo el proyecto de titulación de mi tesis basado
-    en un sistema de recocimiento de caracteres de placas vehiculares por medio de inteligencia artificial.`, // Markdown is supported
+    description: ``, // Markdown is supported
     items: [
       {
-        title: "AIOPS",
+        title: "Sistema de reconocimiento automatico de matriculas (ANPR)",
         company: {
-          name: "Tesis",
-          image: "/neural-network-license-plate-recognition-260nw-2264543831.webp",
+          name: "IA",
+          image: "/ANPR.png",
           url: "https://github.com/Psychodivto/AI-OPS",
         },
-        date: "2024 - Presente",
+        date: "En desarollo",
+      },
+      {
+        title: "Plataforma Ecommerce",
+        company: {
+          name: "Frontend",
+          image: "/market.png",
+          url: "https://github.com/DenisAGS/Asociados-UV-Plataforma-de-E-commerce",
+        },
+        date: "2024",
       },
     ],
   },
@@ -132,11 +151,11 @@ export const projectsPageContent: ProjectPageContent = {
   subtitle: "Checa mis ultimos trabajos que estoy desarrollando.",
   projects: [
     {
-      title: "Proyecto 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
+      title: "Asociados UV",
+      description: "Plataforma Frontend Ecommerce desarrollada con Angular. ",
+      image: "/Inicio.jpg",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://github.com/DenisAGS/Asociados-UV-Plataforma-de-E-commerce",
     },
     {
       title: "Formulario en Laravel",
@@ -146,8 +165,8 @@ export const projectsPageContent: ProjectPageContent = {
       url: "https://github.com/TimWitzdam",
     },
     {
-      title: "Project 3",
-      description: "Project 1 Description",
+      title: "Sistema ANPR ",
+      description: "sistema de deteccion placas vehiculares.",
       image: "/demo-2.jpg",
       year: "2024",
       url: "https://github.com/TimWitzdam",

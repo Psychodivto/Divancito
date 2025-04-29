@@ -1,9 +1,13 @@
 ---
-title: "My First Blog Post with a very long name"
-pubDate: 2022-07-01 #Y-M-D
-description: "Test"
-author: "Tim"
-image: { url: "/demo-1.jpg", alt: "Test" }
+title: "Experiencia y optimizacion JavaScript"
+pubDate: 2025-04-01 #Y-M-D
+description: "Curso"
+author: "Diego Conde"
+image: { url: "/javascript.jpg", alt: "Test" }
 ---
 
 This is test content
+
+# Analisis de datos
+
+En el curso se aprendio
