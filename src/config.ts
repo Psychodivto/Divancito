@@ -102,11 +102,11 @@ export const aboutPageContent: AboutPageContent = {
     complejos. Busco oportunidades para seguir aprendiendo y aportar valor en el desarrollo de software.`, // Markdown is supported
 
     image_l: {
-      url: "/graduacion.jpg",
+      url: "/aboutme/graduacion.jpg",
       alt: "",
     },
     image_r: {
-      url: "/graduacionprofile.jpg",
+      url: "/aboutme/graduacionprofile.jpg",
       alt: "",
     }
     
@@ -118,16 +118,16 @@ export const aboutPageContent: AboutPageContent = {
         title: "Sistema de reconocimiento automatico de matriculas (ANPR)",
         company: {
           name: "IA",
-          image: "/ANPR.png",
+          image: "/aboutme/itech-home.png",
           url: "https://github.com/Psychodivto/AI-OPS",
         },
         date: "En desarollo",
       },
       {
-        title: "Plataforma Ecommerce",
+        title: "Ecommerce C2c",
         company: {
           name: "Frontend",
-          image: "/market.png",
+          image: "/aboutme/ecommerce.webp",
           url: "https://github.com/DenisAGS/Asociados-UV-Plataforma-de-E-commerce",
         },
         date: "2024",
@@ -151,32 +151,32 @@ export const projectsPageContent: ProjectPageContent = {
   subtitle: "Checa mis ultimos trabajos que estoy desarrollando.",
   projects: [
     {
-      title: "Asociados UV",
-      description: "Plataforma Frontend Ecommerce desarrollada con Angular. ",
-      image: "/Inicio.jpg",
+      title: "Ecommerce C2C Asociados UV",
+      description: "Ecommerce con modelo de ventas entre consumidores facilitando ventas seguras y pagos integrados con una experiencia fluida.",
+      image: "/Proyectos/c2c.png",
       year: "2024",
       url: "https://github.com/DenisAGS/Asociados-UV-Plataforma-de-E-commerce",
     },
     {
-      title: "Formulario en Laravel",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
+      title: "Kanban List",
+      description: "Tablero Kanban hecho con Angular y Node.js, dockerizado y con API REST para gestión de tareas y columnas. ",
+      image: "/Proyectos/kanban.gif",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://github.com/Psychodivto/Formulario_laravel",
     },
     {
       title: "Sistema ANPR ",
-      description: "sistema de deteccion placas vehiculares.",
-      image: "/demo-2.jpg",
+      description: "Sistema de reconocimiento de placas vehiculares automatico, ideal para control de accesos o monitoreo de vehículos.",
+      image: "/Proyectos/anpr.jpg",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://github.com/Psychodivto/AI-OPS",
     },
     {
-      title: "Project 4",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
+      title: "Detección de objetos",
+      description: "Aplicacion movil adoptando principios de MLOps tomando modelos de IA entrenados para la previa deteccion de objetos.",
+      image: "/Proyectos/objectsia.png",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://github.com/Psychodivto/formula_with_flutter",
     },
   ],
 };
