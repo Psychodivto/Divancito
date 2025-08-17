@@ -12,6 +12,7 @@ export const identity: Identity = {
   name: "Diego Conde",
   logo: "/PicRetouch_20240719_070444396.png",
   email: "perezcondediegoivan@outlook.com",
+  image: "/public/DiegoConde.pdf",
 };
 
 export const navBarLinks: NavBarLink[] = [
@@ -44,6 +45,13 @@ export const socialLinks: SocialLink[] = [
     title: "Mail",
     url: "mailto:perezcondediegoivan@outlook.com",
     icon: "mdi:email",
+    
+  },
+  {
+    title: "LinkedIn",
+    url: "https://linkedin.com/in/divtoconde",
+    icon: "mdi:linkedin",
+    
   },
 ];
 
@@ -55,7 +63,7 @@ export const homePageContent: HomePageContent = {
       "Innovation begins with exploration, solutions with code.",
     image: identity.logo,
   },
-  role: "Desarrollador de software",
+  role: "Desarrollador Full Stack Web",
   description:
     "La innovación comienza explorando ideas, y las soluciones cobran vida a través del código.",
   socialLinks: socialLinks,
@@ -68,6 +76,10 @@ export const homePageContent: HomePageContent = {
       title: "Acerca de mi",
       url: "/about",
     },
+    {
+      title: "CV",
+      url: "/public/DiegoConde.pdf"
+    }
   ],
 };
 
@@ -81,49 +93,50 @@ export const aboutPageContent: AboutPageContent = {
   },
   subtitle: "",
   about: {
-    description: `
-Hola a todos 👋 soy Diego, ingeniero de software apasionado por el desarrollo web y la inteligencia artificial. 
-Me gusta explorar y aprender constantemente para combinar habilidades en estas áreas y crear soluciones innovadoras.
-<br/><br/>
-Con experiencia en el desarrollo web y un fuerte interés en inteligencia artificial, 
-estoy en búsqueda de oportunidades que me permitan crecer en ambas áreas y contribuir a proyectos de alto impacto.`, // Markdown is supported
+    description: `Soy Ingeniero de Software egresado de la Universidad Veracruzana, 
+    con experiencia en desarrollo Full Stack y Cloud Computing, enfocado en crear soluciones escalables y eficientes.
+    Domino varios lenguajes de programación como Python y JavaScript, además de tecnologías para arquitectura de contenedores 
+    como Docker y Kubernetes. Tengo experiencia con frameworks de Frontend y Backend como Angular, React y Django.
+    Manejo patrones de diseño como MVC y diseño de interfaces con Figma para mejorar la experiencia de usuario. 
+    He participado en proyectos académicos y hackathons, destacando en el desarrollo de soluciones innovadoras para problemas
+    complejos. Busco oportunidades para seguir aprendiendo y aportar valor en el desarrollo de software.`, // Markdown is supported
 
     image_l: {
-      url: "",
+      url: "/aboutme/graduacion.jpg",
       alt: "",
     },
     image_r: {
-      url: "",
+      url: "/aboutme/graduacionprofile.jpg",
       alt: "",
     }
     
   },
   work: {
-    description: `Actualmente desarrollo el proyecto de titulación de mi tesis basado
-    en un sistema de recocimiento de caracteres de placas vehiculares por medio de inteligencia artificial.`, // Markdown is supported
+    description: ``, // Markdown is supported
     items: [
       {
-        title: "Software Developer",
+        title: "Sistema de reconocimiento automatico de matriculas (ANPR)",
         company: {
-          name: "Freelance",
-          image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          name: "IA",
+          image: "/aboutme/itech-home.png",
+          url: "https://github.com/Psychodivto/AI-OPS",
         },
-        date: "2021 - Present",
+        date: "En desarollo",
       },
       {
-        title: "Software Developer",
+        title: "Ecommerce C2c",
         company: {
-          name: "Freelance",
-          image: "/logo.webp",
-          url: "https://gijthub.com/TimWitzdam",
+          name: "Frontend",
+          image: "/aboutme/ecommerce.webp",
+          url: "https://github.com/DenisAGS/Asociados-UV-Plataforma-de-E-commerce",
         },
-        date: "2019 - 2021",
+        date: "2024",
       },
     ],
   },
+
   connect: {
-    description: `I'm always interested in meeting new people and learning new things. Feel free to connect with me on any of the following platforms.`, // Markdown is supported
+    description: ``, // Markdown is supported
     links: socialLinks,
   },
 };
@@ -131,39 +144,39 @@ estoy en búsqueda de oportunidades que me permitan crecer en ambas áreas y con
 // Projects (/projects)
 export const projectsPageContent: ProjectPageContent = {
   seo: {
-    title: "Projects | Tim Witzdam",
-    description: "Check out what I've been working on.",
+    title: "Proyectos | Diego Conde",
+    description: "Checa mis ultimos trabajos que estoy desarollando.",
     image: identity.logo,
   },
-  subtitle: "Check out what I've been working on.",
+  subtitle: "Checa mis ultimos trabajos que estoy desarrollando.",
   projects: [
     {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
+      title: "Ecommerce C2C Asociados UV",
+      description: "Ecommerce con modelo de ventas entre consumidores facilitando ventas seguras y pagos integrados con una experiencia fluida.",
+      image: "/Proyectos/c2c.png",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://github.com/DenisAGS/Asociados-UV-Plataforma-de-E-commerce",
     },
     {
-      title: "Project 2",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
+      title: "Kanban List",
+      description: "Tablero Kanban hecho con Angular y Node.js, dockerizado y con API REST para gestión de tareas y columnas. ",
+      image: "/Proyectos/kanban.gif",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://github.com/Psychodivto/Formulario_laravel",
     },
     {
-      title: "Project 3",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
+      title: "Sistema ANPR ",
+      description: "Sistema de reconocimiento de placas vehiculares automatico, ideal para control de accesos o monitoreo de vehículos.",
+      image: "/Proyectos/anpr.jpg",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://github.com/Psychodivto/AI-OPS",
     },
     {
-      title: "Project 4",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
+      title: "Detección de objetos",
+      description: "Aplicacion movil adoptando principios de MLOps tomando modelos de IA entrenados para la previa deteccion de objetos.",
+      image: "/Proyectos/objects.gif",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://github.com/Psychodivto/formula_with_flutter",
     },
   ],
 };
@@ -172,8 +185,8 @@ export const projectsPageContent: ProjectPageContent = {
 export const blogPageContent: BlogPageContent = {
   seo: {
     title: "Blog | Diego Conde  ",
-    description: "Thoughts, stories and ideas.",
+    description: "Un poco más sobre mi...",
     image: identity.logo,
   },
-  subtitle: "Thoughts, stories and ideas.",
+  subtitle: "Ideas y avances.",
 };

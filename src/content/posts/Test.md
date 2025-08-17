@@ -1,7 +1,7 @@
 ---
-title: "My First Blog Post with a very long name"
-pubDate: 2022-07-01 #Y-M-D
-description: "Test"
-author: "Tim"
-image: { url: "/logo.webp", alt: "Test" }
+title: "Experiencia en el analisis de datos"
+pubDate: 2025-03-05 #Y-M-D
+description: "Curso"
+author: "Diego Conde"
+image: { url: "/datos.png", alt: "Test" }
 ---
