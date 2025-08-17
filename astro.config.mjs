@@ -6,12 +6,8 @@ import node from "@astrojs/node";
 
 // https://astro.build/config
 export default defineConfig({
-<<<<<<< HEAD
-  site: "https://example.com",
-=======
   site: "https://psychodivto.github.io",
-  base: "/Divancito/",
-
+  base: "/",
   integrations: [tailwind(), icon()],
   output: "server",
   adapter: node({
@@ -20,5 +16,4 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [remarkReadingTime],
   },
->>>>>>> release
 });
