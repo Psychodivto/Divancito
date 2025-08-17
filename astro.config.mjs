@@ -6,5 +6,19 @@ import node from "@astrojs/node";
 
 // https://astro.build/config
 export default defineConfig({
+<<<<<<< HEAD
   site: "https://example.com",
+=======
+  site: "https://psychodivto.github.io",
+  base: "/Divancito/",
+
+  integrations: [tailwind(), icon()],
+  output: "server",
+  adapter: node({
+    mode: "standalone",
+  }),
+  markdown: {
+    remarkPlugins: [remarkReadingTime],
+  },
+>>>>>>> release
 });
