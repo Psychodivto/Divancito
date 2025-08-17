@@ -174,7 +174,7 @@ export const projectsPageContent: ProjectPageContent = {
     {
       title: "Detección de objetos",
       description: "Aplicacion movil adoptando principios de MLOps tomando modelos de IA entrenados para la previa deteccion de objetos.",
-      image: "/Proyectos/objectsia.png",
+      image: "/Proyectos/objects.gif",
       year: "2024",
       url: "https://github.com/Psychodivto/formula_with_flutter",
     },
@@ -185,8 +185,8 @@ export const projectsPageContent: ProjectPageContent = {
 export const blogPageContent: BlogPageContent = {
   seo: {
     title: "Blog | Diego Conde  ",
-    description: "Thoughts, stories and ideas.",
+    description: "Un poco más sobre mi...",
     image: identity.logo,
   },
-  subtitle: "Thoughts, stories and ideas.",
+  subtitle: "Ideas y avances.",
 };
