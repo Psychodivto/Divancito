@@ -8,9 +8,6 @@ import node from "@astrojs/node";
 export default defineConfig({
   site: "https://psychodivto.github.io",
   base: "my-repo",
-  integrations: [tailwind(), icon()],
-  output: "static", // GitHub Pages solo soporta estáticos
-  markdown: {
-    remarkPlugins: [remarkReadingTime],
+ 
   },
-});
+);
