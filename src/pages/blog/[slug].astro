@@ -1,11 +1,21 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import { getEntry } from "astro:content";
+import { getEntry, getCollection } from "astro:content";
 import { Image } from "astro:assets";
 import { identity } from "../../config";
 
+// 👇 Necesario para GitHub Pages (build estático)
+export async function getStaticPaths() {
+  const posts = await getCollection("posts");
+
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { entry: post }
+  }));
+}
+
 const { slug } = Astro.params;
-const entry = await getEntry("posts", slug as string);
+const entry = await getEntry("posts", slug);
 
 if (!entry) {
   return Astro.redirect("/blog");
@@ -57,3 +67,4 @@ const { Content, headings, remarkPluginFrontmatter } = await entry.render();
     </article>
   </section>
 </Layout>
+
