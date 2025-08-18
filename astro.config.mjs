@@ -7,13 +7,10 @@ import node from "@astrojs/node";
 // https://astro.build/config
 export default defineConfig({
   site: "https://psychodivto.github.io",
-  base: "/Divancito/",
+  base: "/",
 
   integrations: [tailwind(), icon()],
-  output: "server",
-  adapter: node({
-    mode: "standalone",
-  }),
+  output: "static", // GitHub Pages solo soporta estáticos
   markdown: {
     remarkPlugins: [remarkReadingTime],
   },
