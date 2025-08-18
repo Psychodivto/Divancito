@@ -78,7 +78,7 @@ export const homePageContent: HomePageContent = {
     },
     {
       title: "CV",
-      url: "/public/DiegoConde.pdf"
+      url: "/DiegoConde.pdf"
     }
   ],
 };
