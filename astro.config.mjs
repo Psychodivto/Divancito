@@ -7,6 +7,7 @@ import { remarkReadingTime } from "./remark-reading-time.mjs";
 export default defineConfig({
   site: "https://psychodivto.github.io",
   base: "/",
+  
   integrations: [tailwind(), icon()],
   output: "static",
   markdown: {
