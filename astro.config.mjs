@@ -6,6 +6,7 @@ import { remarkReadingTime } from "./remark-reading-time.mjs";
 // https://astro.build/config
 export default defineConfig({
   site: "https://psychodivto.github.io",
+  base: "/",
   integrations: [tailwind(), icon()],
   output: "static",
   markdown: {
