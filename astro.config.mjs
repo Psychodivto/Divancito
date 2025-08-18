@@ -7,7 +7,7 @@ import node from "@astrojs/node";
 // https://astro.build/config
 export default defineConfig({
   site: "https://psychodivto.github.io",
-  base: "/",
+  base: "my-repo",
   integrations: [tailwind(), icon()],
   output: "static", // GitHub Pages solo soporta estáticos
   markdown: {
