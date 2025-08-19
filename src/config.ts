@@ -12,7 +12,7 @@ export const identity: Identity = {
   name: "Diego Conde",
   logo: "/PicRetouch_20240719_070444396.png",
   email: "perezcondediegoivan@outlook.com",
-  image: "/DiegoConde.pdf",
+  image: "/DiegoCondeCV.pdf",
 };
 
 export const navBarLinks: NavBarLink[] = [
@@ -78,7 +78,7 @@ export const homePageContent: HomePageContent = {
     },
     {
       title: "CV",
-      url: "/DiegoConde.pdf"
+      url: "/DiegoCondeCV.pdf"
     }
   ],
 };
